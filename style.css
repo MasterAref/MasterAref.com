@@ -71,6 +71,22 @@ header h1 {
   left: 115px;
 }
 
+main {
+  background: #225378;
+}
+
+.content {
+  margin: 0 auto;
+  width: 900px;
+  border-left: 1px solid #225378;
+  border-right: 1px solid #225378;
+  border-radius: 25px;
+  padding: 10px;
+  background: #1595A3;
+}
+
+
+
 /*===============*** @font-face ***===============*/
 @font-face {
     font-family: 'BMitra';
@@ -112,7 +128,6 @@ header h1 {
     font-style: normal;
 }
 
-
 @font-face {
     font-family: 'BTitr';
     src: url('./fonts/BTitr.eot');
@@ -132,7 +147,6 @@ header h1 {
     font-weight: bold;
     font-style: normal;
 }
-
 
 @font-face {
      font-family: 'Yekan';
@@ -154,7 +168,6 @@ header h1 {
     font-weight: normal;
     font-style: normal;
 }
-
 
  @font-face {
     font-family: 'BNasim';
