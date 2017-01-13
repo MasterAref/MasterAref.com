@@ -31,10 +31,8 @@ ul { list-style: none; }
 }
 .header {
   padding: 15px 20px;
-
 }
 #myCard {
-
   padding: 60px 0;
 }
 .tile-wrapper {
@@ -44,17 +42,6 @@ ul { list-style: none; }
   margin: 20px;
   border: 1px solid #fff;
   background: #FACD8C;
-}
-
-
-#brief {
-  height: 480px;
-  background: url("img/po.jpg");
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 #logo {
   width: 128px;
