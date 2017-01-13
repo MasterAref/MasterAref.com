@@ -12,48 +12,62 @@ body{
    font-family: 'BTraffic';
    font-family: 'BNasim';
 */
-   font-family: 'BRoya';
-   font-size: 25px;
+  background: url("img/body.jpg");
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
 
-   margin: 0;
-   padding: 0;
-   background: #f0efe7 url(img/body.jpg)
-
+.container {
+  background: #fff;
 }
 
 a { text-decoration: none; }
 ul { list-style: none; }
 
-#header {
-  background: rgba(85, 50, 133, 0.9);
-}
-#navigatorRow {
-
-}
-#header img {
-  width: 128px;
-  height: 128px;
-}
-#logoRow img {
-  width: 128px;
-  height: 128px;
-}
-
-
-#header .col-md-3 {
-  border: 1px solid green;
+.brief {
   text-align: center;
 }
-#logoRow {
-  border: 1px solid green;
+.header {
+  padding: 15px 20px;
+
+}
+#myCard {
+
+  padding: 60px 0;
+}
+.tile-wrapper {
+  padding-top: 40px;
+}
+.snap article {
+  margin: 20px;
+  border: 1px solid #fff;
+  background: #FACD8C;
+}
+
+
+#brief {
+  height: 480px;
+  background: url("img/po.jpg");
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#logo {
+  width: 128px;
+  height: auto;
+}
+.col-xs-4 {
   text-align: center;
-  padding: 30px 0 30px 0;
 }
 
 
-#mainContent {
-  background: rgba(151, 104, 209, 0.8);
-}
+
+
+
 /*===============*** @font-face ***===============*/
 @font-face {
     font-family: 'BMitra';
