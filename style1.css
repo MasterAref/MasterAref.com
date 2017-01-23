@@ -49,6 +49,16 @@ ul { list-style: none; }
 }
 .col-xs-4 {
   text-align: center;
+
+}
+
+.contentWrapper {
+  background: #FACD8C;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 25px 10px 25px 5px;
 }
 
 
